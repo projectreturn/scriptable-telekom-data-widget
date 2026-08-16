@@ -9,6 +9,14 @@ Das Script ruft `https://pass.telekom.de/home` als HTML ab und liest daraus Gesa
 - [`telekom-data-widget.js`](telekom-data-widget.js) zeigt Prozentwert, Verbrauch, Gesamtvolumen, Restvolumen und Gültigkeitsdatum.
 - [`telekom-data-widget-kompakt.js`](telekom-data-widget-kompakt.js) zeigt nur den Prozentwert und `verbraucht / gesamt`. Die Zeilen „Rest“ und „Bis“ werden nicht angezeigt.
 
+## Screenshots
+
+Beispielansichten mit Beispieldaten:
+
+| Normal | Kompakt |
+| --- | --- |
+| <img src="screenshots/widget-normal.png" alt="Normale Widget-Version" width="320"> | <img src="screenshots/widget-kompakt.png" alt="Kompakte Widget-Version" width="320"> |
+
 ## Installation
 
 1. Installiere **Scriptable** auf dem iPhone.
