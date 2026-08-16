@@ -4,11 +4,16 @@ Ein kleines iOS-Widget für [Scriptable](https://scriptable.app/), das den Daten
 
 Das Script ruft `https://pass.telekom.de/home` als HTML ab und liest daraus Gesamtvolumen, Restvolumen und Gültigkeitsdatum. CSS, Bilder und JavaScript der Webseite werden dabei nicht zusätzlich geladen.
 
+## Varianten
+
+- [`telekom-data-widget.js`](telekom-data-widget.js) zeigt Prozentwert, Verbrauch, Gesamtvolumen, Restvolumen und Gültigkeitsdatum.
+- [`telekom-data-widget-kompakt.js`](telekom-data-widget-kompakt.js) zeigt nur den Prozentwert und `verbraucht / gesamt`. Die Zeilen „Rest“ und „Bis“ werden nicht angezeigt.
+
 ## Installation
 
 1. Installiere **Scriptable** auf dem iPhone.
 2. Erstelle in Scriptable ein neues Script.
-3. Kopiere den Inhalt von [`telekom-data-widget.js`](telekom-data-widget.js) in das Script und speichere es.
+3. Kopiere den Inhalt der gewünschten Variante in das Script und speichere es.
 4. Starte das Script einmal direkt in Scriptable.
 5. Füge anschließend ein kleines Scriptable-Widget zum Home-Bildschirm hinzu und wähle das gespeicherte Script aus.
 
